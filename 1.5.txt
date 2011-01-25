@@ -1,0 +1,12 @@
+(define (p) (p))
+
+(define (test x y)
+  (if (= x 0)
+      0
+      y))
+
+]=> (test 0 (p))
+
+If applicative-order evaluation is used, (p) will be evaulated first. Evaluating (p) causes an infinite loop. Using normal-order evaluation, the
+if check will return true and short circuit to returning 0 without
+ever evaulating (p).
