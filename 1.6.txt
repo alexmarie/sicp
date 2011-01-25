@@ -1,0 +1,5 @@
+(define (new-if predicate then-clause else-clause)
+  (cond (predicate then-clause)
+        (else else-clause)))
+
+Using applicative-order evaluation, both the then-clause and the else-clause will be evaluated before checking the condition. Using new-if instead of if in the square root example would cause a stack overflow because square-iter will be called recursively at every pass, before good-enough? is evaluated.
