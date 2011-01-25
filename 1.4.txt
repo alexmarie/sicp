@@ -1,0 +1,5 @@
+(define (a-plus-abs-b a b)
+  ((if (> b 0) + -) a b))
+
+First (> b 0) is evaluated to determine which operator is used. If b
+is greater than zero, a and b are added, otherwise b is subtracted from a.
