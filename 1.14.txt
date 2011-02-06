@@ -18,4 +18,8 @@
                       (1 0) *(0 1)*
 
 
-(prettier diagram http://telegraphics.com.au/~toby/sicp/ex1-14.svg)
+prettier diagram http://telegraphics.com.au/~toby/sicp/ex1-14.svg
+
+Theta(f(n)) with respect to space is n, because space required grows linearly with the length of the longest branch which is always change in pennies.
+
+Theta(f(n)) with respect to number of operations is larger than n, because there are multiple branches for every type of coin. Becuase the number of types of coin will always increase the branching, there is no constant k such that theta = n^k.  Theta is n^c where c is number of coin denominations.
