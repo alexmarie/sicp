@@ -20,7 +20,7 @@
 
 ;;tests
 
-(load "test_helper.scm")
+(load "../test_helper.scm")
 
 (define (run-tests)
   (assert-same-results 2 0)
