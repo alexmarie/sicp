@@ -1,0 +1,25 @@
+Meeting 0 - 1/18/11
+
+- attendance: 10
+- Scheme vs Clojure - decided on Scheme
+- assignment: 
+  * reading: 1.1, exercises: 1.1
+
+Meeting 1 - 1/25/11
+
+- discussion leader: David Chelimsky
+- attendance: 10
+- quick review over 1.1 solutions
+- assignment: 
+  * reading 1.2, exercises 
+
+Meeting 2 - 2/8/11
+
+- discussion leader: Alex Rutowkski
+- attendance: 8
+- most only finished exercises 1.9 - 1.12
+- 1.13 proof was skipped by everyone
+- discussed through 1.12
+- plan to work through a problem together next week
+- assignment:
+  * reading: finish section 1.2, exercises: 1.14-1.19
