@@ -1,5 +1,3 @@
-(define (inc a)
-  (+ 1 a))
 
 (define (cube n)
   (* n n n))

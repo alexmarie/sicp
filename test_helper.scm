@@ -5,3 +5,7 @@
                               " actual: " actual)))
       (display "."))
   "test complete")
+
+(define (inc a)
+  (+ 1 a))
+
