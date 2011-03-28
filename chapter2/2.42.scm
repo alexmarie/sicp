@@ -23,9 +23,6 @@
               true (cdr positions)))
 
 (define (pair-safe? queen1 queen2)
-  (display queen1)
-  (display queen2)
-  (display "\n")
   (let ((i1 (car queen1))
         (i2 (car queen2))
         (j1 (cdr queen1))
