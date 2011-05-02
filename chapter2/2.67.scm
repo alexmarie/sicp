@@ -1,3 +1,5 @@
+(load "huffman.scm")
+
 (define sample-tree 
   (make-code-tree (make-leaf 'A 4) 
                   (make-code-tree 

@@ -1,5 +1,5 @@
 (load "../test_helper.scm")
-(load "2.67.scm")
+(load "huffman.scm")
 
 (define (encode message tree) 
   (if (null? message) 
